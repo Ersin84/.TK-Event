@@ -103,10 +103,8 @@ export function renderSuccess(data?: GitHubOAuthData) {
     <h1>Success!</h1>
     <p>You may close this window and see your ticket image.</p>
     <script>
-
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7005479426047475"
-     crossorigin="anonymous"></script>
-     
+       async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7005479426047475"
+       crossorigin="anonymous">
       if (window.opener) {
         window.opener.postMessage(${htmlescape(data || '')}, ${htmlescape(SITE_ORIGIN || '*')});
       } else {
